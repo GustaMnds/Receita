@@ -1,0 +1,56 @@
+*{
+   margin: 0;
+}
+
+body{
+   background-color: white;
+   width: 100%;
+}
+
+header{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+header img{
+   width: 100%;
+}
+
+header .omelette{
+   background-color: gren;
+   width: 90%;
+   height: 21vh;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+#titulo{
+   background-color: ed;
+   width: 100%;
+}
+
+#descricao{
+   background-color: bue;
+   width: 100%;
+   height: 11vh;
+   display: flex;
+   align-items: center;
+}
+
+
+
+
+@media (max-width: 375px){
+  body{
+    background-color: red;
+  }
+}
+@media (min-width: 1440px){
+  body{
+    background-color: blue;
+  }
+}
