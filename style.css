@@ -1,0 +1,224 @@
+*{
+   margin: 0;
+}
+
+@font-face{
+  font-family: "Young";
+  src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+@font-face{
+  font-family: "Outfit";
+  src: url('assets/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
+}
+
+body{
+   background-color: white;
+   width: 100%;
+}
+
+header{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+header img{
+   width: 100%;
+}
+
+header .omelette{
+   background-color: geen;
+   width: 90%;
+   height: 210px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+#titulo{
+   background-color: ed;
+   width: 100%;
+   font-size: 15px;
+   font-family: Young, Sans-Serif;
+   font-size: 16px;
+}
+
+#descricao{
+   background-color: bue;
+   width: 100%;
+   height: 100px;
+   display: flex;
+   align-items: center;
+   font-size: 16px;
+   font-family: Outfit, Sans-Serif;
+}
+
+main{
+   width: 100%;
+   background: rd;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+section{
+   width: 90%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.tempo-de-preparo{
+   background-color: hsl(330, 100%, 98%);
+   width: 100%;
+   height: 230px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-radius: 10px;
+}
+
+.preparo{
+   width: 90%;
+}
+
+.preparo h4{
+   color: hsl(332, 51%, 32%);
+   line-height: 40px;
+   font-family: Outfit, Sans-Serif;
+   
+}
+
+.preparo ul li{
+   color: hsl(30, 10%, 34%);
+   line-height: 40px;
+   font-family: Outfit, Sans-Serif;
+} 
+
+.ingredientes{
+   background: ed;
+   width: 100%;
+   height: 290px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.instrucoes{
+   width: 100%;
+   height: 630px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+  }
+
+cores{
+   color: 
+   hsl(30, 54%, 90%)
+   hsl(30, 18%, 87%)
+   hsl(30, 10%, 34%)
+   hsl(24, 5%, 18%);
+   hsl(14, 45%, 36%)
+}
+
+.ingredientes h2, .instrucoes h2{
+   color: hsl(14, 45%, 36%);
+   line-height: 40px;
+   font-family: Young, Sans-Serif;
+}
+ 
+.ingredientes ul li{
+   color: hsl(14, 45%, 36%);
+   line-height: 40px;
+}
+
+.instrucoes ol li{
+   color: hsl(14, 45%, 36%);
+   line-height: 35px;
+}
+
+.ingredientes ul li p, .instrucoes ol li p{
+   color: hsl(30, 10%, 34%);
+   margin-right: 30px;
+   font-family: Outfit, Sans-Serif;
+   font-size: 16px;
+}
+
+.nutricao{
+   background: rd;
+   width: 100%;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.nutricao h2{
+   color: hsl(14, 45%, 36%);
+   line-height: 40px;
+   font-family: Young, Sans-Serif;
+}
+
+.info{
+   display: flex;
+   flex-direction: column;
+}
+
+.info #p-info{
+   font-family: Outfit, Sans-Serif;
+   font-size: 16px;
+   color: hsl(30, 10%, 34%);;
+}
+
+.info #p-n{
+  font-family: Outfit, Sans-Serif;
+  font-size: 16px;
+  color: hsl(14, 45%, 36%);
+}
+
+.tabela{
+   background: bue;
+   width: 100%;
+   height: 60px;
+   display: flex;
+   align-items: center;
+}
+
+.tabela p{
+  width: 50%;
+}
+
+
+@media (max-width: 375px){
+  
+}
+@media (min-width: 1440px){
+  header img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  
+  header #ome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1080px;
+  }
+  
+  header #ome-img{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .instrucoes{
+   height: 350px;
+  }
+}
